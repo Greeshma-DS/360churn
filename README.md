@@ -15,7 +15,7 @@ both **academic research** and **industry deployment**.
 ---
 
 ## 🚀 Live Demo
-👉 **https://360churn.streamlit.app**
+👉 **https://360churn-22o6f7ytfeipwp7ntz4nsh.streamlit.app/**
 
 *(Interactive Streamlit dashboard with portfolio analytics and budget simulation)*
 
