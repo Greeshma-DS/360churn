@@ -128,10 +128,7 @@ with tab2:
     st.subheader("📊 Portfolio Churn Analytics (Interactive)")
 
     # Load data
-    df_port = pd.read_csv(
-        r"C:\Users\Administrator\360churn\data\processed\telco_processed.csv"
-    )
-
+    df_port = pd.read_csv(DATA_PATH)
     # -----------------------------
     # KPI ROW
     # -----------------------------
@@ -277,9 +274,8 @@ with tab3:
     # --------------------------------------------------
     # LOAD DATA (same processed data)
     # --------------------------------------------------
-    df_budget = pd.read_csv(
-        r"C:\Users\Administrator\360churn\data\processed\telco_processed.csv"
-    )
+    df_budget = pd.read_csv(DATA_PATH)
+
 
     # Compute CLV proxy
     df_budget["CLV"] = df_budget["MonthlyCharges"] * df_budget["tenure"]
